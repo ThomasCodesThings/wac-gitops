@@ -3,14 +3,14 @@ kind: WebComponent
 metadata:
   name: cernica-department-ufe
 spec:
-  module-uri: http://cernica-department-ufe.wac-hospital/build/department-ufe.esm.js
+  module-uri: http://cernica-department-ufe.wac-hospital/build/wac-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: cernica-department-app    # element, ktorý bude vložený na stránku
+    - element: cernica-department-list    # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       path: cernica-department-list     # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Zoznam pacientov    # názov mikro aplikácie
+      title: PROJEKT Zoznam pacientov cernica   # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
