@@ -10,3 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/cernica-department-ufe
+- ../../../apps/cernica-department-webapi
+
+components:
+- ../../../components/version-developers
+- https://github.com/ThomasCodesThings/wac-api//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/department-webapi.service.yaml

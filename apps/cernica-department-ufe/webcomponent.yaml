@@ -12,6 +12,10 @@ spec:
       path: cernica-department-list     # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: PROJEKT Zoznam pacientov cernica   # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie
+
+      atributes:
+        - name: api-base
+          value: http://localhost:30081/api
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
