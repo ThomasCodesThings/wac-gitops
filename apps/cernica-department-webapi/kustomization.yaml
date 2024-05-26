@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - 'https://github.com/ThomasCodesThings/wac-api//deployments/kustomize/install' # ?ref=v1.0.1
+- http-route.yaml
