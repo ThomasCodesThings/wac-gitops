@@ -13,7 +13,7 @@ spec:
       title: PROJEKT Zoznam ukonov cernica   # názov mikro aplikácie
       details: Spravuje ukony oddelenia
 
-      atributes:
+      attributes:
         - name: api-base
           value: http://localhost:30081/api
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou

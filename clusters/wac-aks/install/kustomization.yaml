@@ -5,7 +5,7 @@ namespace: wac-hospital
 
 commonLabels:
  app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: cernica-department-list
+ app.kubernetes.io/name: cernica-department-app
 
 resources:
  - ../../../apps/cernica-department-ufe
