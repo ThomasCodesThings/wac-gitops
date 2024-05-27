@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: thomascodesthings/cernica-ufe
   newName: thomascodesthings/cernica-ufe
-  newTag: 1.0.8  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.9  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: thomascodesthings/department-webapi
   newName: thomascodesthings/department-webapi
   newTag: 1.0.4
